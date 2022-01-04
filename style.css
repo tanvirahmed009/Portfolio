@@ -8,10 +8,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name{
     color: burlywood;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -31,7 +34,7 @@ section{
     font-weight: 700;
     border: 1px solid rgb(180, 108, 26);
 }
-#top-banner{
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -39,4 +42,26 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+#stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(red orange);
+    border-image-slice: 1;
 }
